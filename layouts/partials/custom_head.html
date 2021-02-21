@@ -1,0 +1,24 @@
+<!-- A partial to be overwritten by the user.
+  Simply place a custom_head.html into
+  your local /layouts/partials-directory -->
+{{ if .Params.noindex }}
+	<meta name="robots" content="noindex" />
+{{ else }}
+	<meta name="robots" content="noarchive">
+{{ end }}
+<style>
+  code {
+    background: rgb(36, 35, 35);
+    color: #fff;
+  }
+  pre code {
+    color: rgb(230, 220, 220);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    code {
+    background: rgb(36, 35, 35);
+    color: #b32fff;
+  }
+  }
+</style>

@@ -1,0 +1,5 @@
+baseURL = "http://catagec.com/"
+languageCode = "en-us"
+title = "Ceyhun's Dev Blog"
+theme= "bearblog"
+
