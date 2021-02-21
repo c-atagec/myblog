@@ -1,4 +1,4 @@
-baseURL = "http://catagec.com/"
+baseURL = "https://catagec.com/"
 languageCode = "en-us"
 title = "Ceyhun's Dev Blog"
 theme= "bearblog"
