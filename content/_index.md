@@ -4,7 +4,7 @@ date: 2021-02-21T14:35:11+03:00
 menu: "main"
 ---
 
-# Hello, I'm Ceyhun
+# Hello, I'm Ceyhun Atageç
 
 ## I'm a self taught frontend developer.
 
