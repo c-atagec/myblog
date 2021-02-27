@@ -1,7 +1,7 @@
 +++
 title = "What is CSS display property?"
 date = "2021-02-21"
-description = "Article that explains CSS display property and it's display: block, display: inline-block, display: inline, display: none values"
+description = "Let's take a closer look at CSS display property and it's display: block, display: inline-block, display: inline, display: none values"
 tags = [
   "CSS",
   "display",
@@ -63,7 +63,7 @@ There are plenty of display values, we're going to focus on just 4 of them. Thos
     </html>
 {{< /highlight >}}
 
-- As we can see, block-level elements creates a new line for preceding and subsequent elements ( **div** is a block-level element )
+- As we can see, block-level elements create a new line for preceding and subsequent elements ( **div** is a block-level element )
 
 
 ![Hamburger](/images/hamburger-graph.jpg)
@@ -108,12 +108,12 @@ There are plenty of display values, we're going to focus on just 4 of them. Thos
 ## display: none;
 
 - It simply **hides** the element.
-- Element that has `display: none;` property is not going show up on screen and other elements will act like it doesn't exist.
+- Element that has `display: none;` property is not going show up on the screen and other elements will act like it doesn't exist.
 
-## It's time to see how they interact with each other
-We learned what `inline`, `inline-block`, `block` level elements are. Let's take a look at how they interact with each other.
+## Let's take a look at how they interact with each other
+We learned what `inline`, `inline-block`, `block` level elements are. It's time to see how they work together.
 
-Imagine you purchased *two paintings*, *a TV* and a *TV unit* to decorate your favorite corner of the house.
+Imagine you purchased *two paintings*, *a TV*, and a *TV unit* to decorate your favorite corner of the house.
 
 First, you put the *TV* between the *paintings* vertically and the *TV* unit at the bottom. (`display: block;` on each element)
 
