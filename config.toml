@@ -5,6 +5,7 @@ theme= "bearblog"
 author = "Ceyhun Atageç"
 canonifyURLs = true
 
+
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
@@ -26,5 +27,8 @@ ignoreErrors = ["error-disable-taxonomy"]
   # See https://gohugo.io/templates/internal#twitter-cards and
   # https://gohugo.io/templates/internal#open-graph.
   # images = ["images/share.png"]
+
+  # Google Analytics 4
+  googleAnalyticsID = "G-R3GE0JGYZV"
 
 

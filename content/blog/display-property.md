@@ -35,7 +35,7 @@ There are plenty of display values, we're going to focus on just 4 of them. Thos
 
 ## display: block;
 
-- Block-level elements start at a **new line** and the elements come after it **has to start at a new line.**
+- Block-level elements start at a **new line** and the elements that come after it **has to start at a new line.**
 - It takes up the **largest** available space.
 - We **can** control width and height of the element.
 - Elements are affected by margin and padding.
@@ -71,7 +71,7 @@ There are plenty of display values, we're going to focus on just 4 of them. Thos
 ## display: inline;
 
 - Inline elements take **minimum** available content space
-- We **can't** controltthe width and height of the element,
+- We **can't** control the width and height of the element,
 - Only **horizontal dimensions** are affected by margin and padding properties, element's width and height will remain **unaffected.**
 
 

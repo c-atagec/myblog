@@ -1,14 +1,32 @@
 <!-- A partial to be overwritten by the user.
   Simply place a custom_head.html into
   your local /layouts/partials-directory -->
+
+
+<!-- GOOGLE ANALYTICS -->
+{{ if .Site.Params.GoogleAnalyticsID }}
+{{ partial "analytics-gtag.html" . }}
+{{ end }}
+
+<!-- NO INDEX AND NO ARCHIVE TAGS -->
+
 {{ if .Params.noindex }}
 	<meta name="robots" content="noindex" />
 {{ else }}
 	<meta name="robots" content="noarchive">
 {{ end }}
 
+
+<!-- CANONICAL URL -->
+
 <link rel="canonical" href="{{ .Permalink }}">
 
+
+
+
+
+
+<!-- CUSTOM STYLES -->
 <style>
   code {
     background: rgb(36, 35, 35);
