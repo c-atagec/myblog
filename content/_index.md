@@ -8,7 +8,7 @@ menu: "main"
 
 ## I'm a self taught frontend developer.
 
-I love wandering in dungeons of CSS and look for hidden treasure chests. I always try to create new learning models outside of traditional learning techniques.
+I am a front-end developer passionate about VueJS and CSS. I always try to create new learning models outside of traditional learning techniques.
 
 I enjoy turning theoretical concepts into small visual bits.
 
