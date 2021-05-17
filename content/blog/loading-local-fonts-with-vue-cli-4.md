@@ -1,6 +1,7 @@
 +++
 title = "How to Load Local Fonts with Vue CLI 4 in Vue 3"
 date = "2021-05-16T15:29:58+03:00"
+description= "In this post we're going to learn how to use our local fonts in our Vue 3 application using Vue CLI 4"
 
 #
 # description is optional
