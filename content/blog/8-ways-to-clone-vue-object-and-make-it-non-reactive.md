@@ -321,7 +321,7 @@ const originalData = [
 const clonedData = JQuery.extend(true, [], originalData);
 ```
 
-### Conclusion
+## Conclusion
 
 As you can see, there's plenty of ways to clone our reactive object into a non-reactive one. Use whichever works best for you.
 
