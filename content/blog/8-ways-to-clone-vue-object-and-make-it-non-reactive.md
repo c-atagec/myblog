@@ -10,8 +10,6 @@ date = "2021-06-08T22:27:11+03:00"
 tags = ["block","css","display","google-fonts","inline","inline-block","local-fonts","none","vue-3","vue-3-project-setup","vue-cli-4","vuejs",]
 +++
 
-This is a page about »8 Ways to Clone Vue Object and Make It Non Reactive«.
-
 Today, we are going to learn how to clone a reactive object into a non-reactive one, so we can use it in our application without worrying about its reactiveness.
 
 Without further ado, let's jump right in.
