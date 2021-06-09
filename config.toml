@@ -31,4 +31,10 @@ ignoreErrors = ["error-disable-taxonomy"]
   # Google Analytics 4
   googleAnalyticsID = "G-R3GE0JGYZV"
 
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 5
+    ordered = false
+
 
