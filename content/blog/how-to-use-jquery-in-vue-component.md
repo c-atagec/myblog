@@ -1,6 +1,7 @@
 +++
 title = "How to Use Jquery in Vue Component with NPM"
 date = "2021-05-29T21:46:14+03:00"
+description = "In this post we are going to learn to use JQuery in Vue 3 component"
 
 #
 # description is optional

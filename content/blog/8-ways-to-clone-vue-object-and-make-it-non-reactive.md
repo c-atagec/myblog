@@ -1,6 +1,7 @@
 +++
 title = "8 Ways to Clone Vue Object and Make It Non Reactive"
 date = "2021-06-08T22:27:11+03:00"
+description = "Today, we are going to learn how to clone a reactive object into a non-reactive one, so we can use it in our application without worrying about its reactiveness."
 
 #
 # description is optional
