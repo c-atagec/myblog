@@ -167,6 +167,12 @@ We now can see that stylings are applied to ``h1``, ``h3`` and ``li`` elements.
 
 ![vue-cli-end-result](/images/vue-global-scss/global-scss-end-result.png)
 
+## Vue 3 Sass Integration Cheatsheet
+
+Next time you use scss in your Vue 3 app, follow this steps to integrate it into your workflow.
+
+![vue-cli-end-result](/images/vue-global-scss/scss-checklist.png)
+
 
 
 
