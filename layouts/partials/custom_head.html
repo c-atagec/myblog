@@ -2,6 +2,20 @@
   Simply place a custom_head.html into
   your local /layouts/partials-directory -->
 
+<meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}" />
+<meta property="og:article:author" content="{{ .Params.author }}" />
+{{ with .Params.og_image }}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@CAtagec" />
+<meta name="twitter:creator" content="@CAtagec" />
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ .Summary }}" />
+{{ with .Params.og_image }}
+<meta name="twitter:image" content="{{ . | absURL }}" />
+{{ end }}
 <!-- GOOGLE ANALYTICS -->
 {{ if .Site.Params.GoogleAnalyticsID }} {{ partial "analytics-gtag.html" . }} {{ end }}
 
@@ -16,12 +30,10 @@
 <link rel="canonical" href="{{ .Permalink }}" />
 
 <!-- GOOGLE FONTS -->
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet" />
 
 <!-- CUSTOM STYLES -->
 <style>
-  
   /* Signup Form */
   .formkit-form[data-uid="0aaa994e39"] {
     border: 1px solid #e3e3e3;
@@ -29,10 +41,10 @@
     position: relative;
     overflow: hidden;
     margin-top: 50px;
-}
+  }
 
   body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     background-color: #f8f8ff;
   }
 
@@ -56,33 +68,29 @@
     color: #00bfa5;
   }
 
-
   @media screen and (min-width: 320px) {
     body {
       font-size: 16px;
     }
   }
-  
 
-  
-  @media screen and (min-width: 768px)  {
+  @media screen and (min-width: 768px) {
     body {
       font-size: 18px;
     }
   }
-  
+
   @media screen and (min-width: 1281px) and (max-width: 1920px) {
     body {
       font-size: 18px;
     }
   }
-  
+
   @media screen and (min-width: 1921px) {
     body {
       font-size: 22px;
     }
   }
-
 
   @media (prefers-color-scheme: dark) {
     body {
@@ -104,7 +112,6 @@
     b {
       color: #6f90a0;
     }
-
 
     textarea,
     input {
