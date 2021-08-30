@@ -1,6 +1,7 @@
 +++
 title = "How to Use Router Link With Vuetify Buttons"
 date = "2021-08-11T21:54:52+03:00"
+og_image = "/images/vue-router-link-vuetify/setting-up-the-project.png"
 
 #
 # description = "An optional description for SEO. If not provided, an automatically created summary will be used."
