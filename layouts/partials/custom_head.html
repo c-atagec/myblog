@@ -16,6 +16,8 @@
 {{ with .Params.og_image }}
 <meta name="twitter:image" content="{{ . | absURL }}" />
 {{ end }}
+
+
 <!-- GOOGLE ANALYTICS -->
 {{ if .Site.Params.GoogleAnalyticsID }} {{ partial "analytics-gtag.html" . }} {{ end }}
 
@@ -82,7 +84,7 @@
 
   @media screen and (min-width: 1281px) and (max-width: 1920px) {
     body {
-      font-size: 18px;
+      font-size: 19px;
     }
   }
 
