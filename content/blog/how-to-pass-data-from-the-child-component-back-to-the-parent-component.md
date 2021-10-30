@@ -1,5 +1,5 @@
 +++
-title = "How to Pass Data From the Child Component Back to the Parent Component"
+title = "How to Pass Data From the Child Component Back to the Parent Component in Vue"
 date = "2021-10-28T16:17:02+03:00"
 
 #
